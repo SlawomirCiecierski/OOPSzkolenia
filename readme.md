@@ -1,7 +1,6 @@
-#Witajcie
-##Uczestnicy projektu
+#Witajcie Uczestnicy projektu
 
-###S³awomir Ciecierski
+###SÅ‚awomir Ciecierski
 
 ###tu wklej imie i nazwisko
 
