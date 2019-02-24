@@ -1,6 +1,6 @@
 #Witajcie Uczestnicy projektu
 
-###Sławomir Ciecierski
+###Sławomir Ciecierski dostępny wieczorem 23.02 
 
 ###tu wklej imie i nazwisko
 
