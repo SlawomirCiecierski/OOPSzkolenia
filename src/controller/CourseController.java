@@ -1,7 +1,6 @@
 package controller;
 
 import model.Course;
-import model.Participant;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -39,12 +38,11 @@ public class CourseController {
     public void getAllCourses() {
         System.out.println("Wykaz kursów: ");
 
-
         for (Course course : courses) {
 
             System.out.println(course);
+          //  ppp.getAllParticipantsByKurs("111");
             ppp.getAllParticipantsByKurs(course.getName_of_course());
-
 
         }
     }

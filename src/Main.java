@@ -16,7 +16,7 @@ public class Main {
     ParticipantControler pc = new ParticipantControler();
     Scanner sc = new Scanner(System.in);
     int decision = -1;
-    int decision_kursanci = -1;
+
     while (decision != 0) {
       System.out.println("K U R S Y");
       System.out.println("Memu główne -> KURSY");
@@ -47,22 +47,17 @@ public class Main {
 
             cc.getAllCourses();
 
-//oblicza ilosc kursantow w kursach
-// pokazuje kursantow w kursach
-            //pc.getAllParticipantsByKurs("Fortran");
-            //System.out.println("======");
-            // pc.getAllParticipantsByKurs("Fortran");
 
             break;
 
           case 4:
-
+            int decision_kursanci = -1;
             while (decision_kursanci != 0) {
               System.out.println("Menu  -> KURSANCI");
               System.out.println("1. Przypisz nowego kursanta \n2. Usuń kursanta \n3. Pokaż kursantów\n0. Powrót no menu głównego");
               decision_kursanci = sc.nextInt();
               sc.nextLine();
-
+//MENU KURSANCI
               switch (decision_kursanci) {
                 case 1:
                   //dodaj kursanta i przypisz do kursu
@@ -93,13 +88,13 @@ public class Main {
 
                   break;
                 case 0:
-
+                  //decision_kursanci=-1;
                   break;
                 default:
                   break;
               }
             }
-            break;
+
 
 
           case 0:

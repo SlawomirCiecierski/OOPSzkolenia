@@ -49,14 +49,15 @@ public class ParticipantControler {
 
     public void getAllParticipantsByKurs(String nazwa_szkolenia) {
 
-        System.out.println("Wykaz kursantów kursu: ");
+        System.out.println("Wykaz kursantów kursu "+ nazwa_szkolenia);
 
         for (int i = 0; i < added_participants.size(); i++) {
-            if (added_participants.get(i).getKurs().equals(nazwa_szkolenia)) {
-                //temp.add(added_participants.get(i));
-                System.out.println(added_participants.get(i));
+            if (added_participants.contains(nazwa_szkolenia)) {
+
+                System.out.println(added_participants);
             }
         }
+
 
 
     }
